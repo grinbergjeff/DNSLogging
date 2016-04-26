@@ -108,6 +108,7 @@ for index, linkname in enumerate(maybe_correct_index):
 queryLength.append(abs(maybe_correct_index[-1] - filteredArrayCount))
 # First length is garbage.
 queryLength.pop(0)
+print queryLength
 
 # Array for which indexes I need to pop because they are duplicates:
 needToPopIndex=[]
@@ -126,10 +127,15 @@ print needToPopIndex
 
 
 
-for index, popthis in enumerate(needToPopIndex):
-	print index
-	siteLink.pop(popthis)
-	siteTimeFormatCorrect.pop(popthis)
+# for index, popthis in enumerate(needToPopIndex):
+# 	if index == 0:
+# 		# print index
+# 		siteLink.pop(popthis)
+# 		siteTimeFormatCorrect.pop(popthis)
+# 	else:
+# 		print index
+# 		siteLink.pop(popthis-1)
+# 		siteTimeFormatCorrect.pop(popthis-1)
 
  # Print Stuff:
 
