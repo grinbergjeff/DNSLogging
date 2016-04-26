@@ -109,15 +109,22 @@ queryLength.append(abs(maybe_correct_index[-1] - filteredArrayCount))
 # First length is garbage.
 queryLength.pop(0)
 
-# Filter the duplicates that appear:
-for index, correctIndex in enumerate(maybe_correct_index):
- 	potentiallyCorrectLink = siteLink[correctIndex]
-	cleanCorrectLink = potentiallyCorrectLink[:-1]
-	for x in range(inputArray)
+# Array for which indexes I need to pop because they are duplicates:
+needToPopIndex=[]
 
-	# For filtering the duplicate dns requests:
-	# Find the length between the next, go through them for lengths and get rid of repeats. 
-	# Rerun the last two stanzas of code
+for index, correctIndex in enumerate(maybe_correct_index):
+	# Filter the duplicates that appear:
+	tempFiltered = []
+	for x in range(correctIndex, (correctIndex + queryLength[index])):
+		print x
+		if siteLink[x] not in tempFiltered:
+			tempFiltered.append(siteLink[x])
+		else:
+			needToPopIndex.append(x)
+			print 'popping site: %s' % (siteLink[x])
+			print 'popping time: %s' % (siteTimeFormatCorrect[x])
+print needToPopIndex
+
 
  # Print Stuff:
 
