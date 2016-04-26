@@ -87,7 +87,7 @@ for index, time in enumerate(timeStampMS):
 	subtraction = abs(time - timeStampMS[index-1] )
 	sub_array.append(subtraction)
 	# print subtraction
-	if subtraction > 45000:
+	if subtraction > 15000:
 			# Look for what exists in the link and filter it
 			# Typical links have 3 dots:
 		if siteLink[index].count('.') >= 2:
