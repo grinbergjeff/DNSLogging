@@ -1,9 +1,10 @@
-google.com: 4 Time: 21:37:50.944 
+google.com: 5 Time: 21:37:50.931 
 1. google.com 
 2. www.google.com 
 3. ssl.gstatic.com 
 4. www.gstatic.com 
-yahoo.com: 26 Time: 21:37:50.944 
+5. apis.google.com 
+yahoo.com: 26 Time: 21:37:50.931 
 1. yahoo.com 
 2. www.yahoo.com 
 3. s.yimg.com 
@@ -30,7 +31,7 @@ yahoo.com: 26 Time: 21:37:50.944
 24. geo.query.yahoo.com 
 25. geo.yahoo.com 
 26. comet.yahoo.com 
-comet.yahoo.com: 15 Time: 21:37:50.944 
+comet.yahoo.com: 16 Time: 21:37:50.931 
 1. comet.yahoo.com 
 2. bing.com 
 3. www.bing.com 
@@ -46,7 +47,8 @@ comet.yahoo.com: 15 Time: 21:37:50.944
 13. outlook.com 
 14. go.microsoft.com 
 15. login.live.com 
-www.bing.com: 25 Time: 21:37:50.944 
+16. a4.bing.com 
+www.bing.com: 26 Time: 21:37:50.931 
 1. www.bing.com 
 2. baidu.cn 
 3. www.baidu.com 
@@ -72,14 +74,15 @@ www.bing.com: 25 Time: 21:37:50.944
 23. wenku.baidu.com 
 24. home.baidu.com 
 25. ir.baidu.com 
-yandex.ru: 10 Time: 21:37:50.944 
+26. jianyi.baidu.com 
+yandex.ru: 10 Time: 21:37:50.931 
 1. yandex.ru 
 2. yastatic.net 
 3. yabs.yandex.ru 
 4. mc.yandex.ru 
 5. www.tns-counter.ru 
-6. awaps.yandex.net 
-7. kiks.yandex.ru 
+6. kiks.yandex.ru 
+7. awaps.yandex.net 
 8. www.googleadservices.com 
 9. googleads.g.doubleclick.net 
 10. www.google.com 

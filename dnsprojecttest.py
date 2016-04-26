@@ -31,7 +31,7 @@ inputFile.close();
 
 inputArray = readFile.split('\n')
 # Traverse through the array search for the `IN AAAA` values.
-stringlook = "IN AAAA"
+stringlook = "IN A"
 inputArray = "\n".join(s for s in inputArray if stringlook.lower() in s.lower()).split("\n")
 
 
