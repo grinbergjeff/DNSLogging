@@ -113,18 +113,23 @@ print queryLength
 # Array that will hold all the dns requests but filtered for any duplicates
 inputArrayFiltered = []
 
+#Array that will hold count of null values for each respective query call
+NullCount =[]
+
 for index, correctIndex in enumerate(maybe_correct_index):
 	# Filter the duplicates that appear:
 	tempFiltered = []
+	NullValues = 0
 	for x in range(correctIndex, (correctIndex + queryLength[index])):
 		if siteLink[x] not in tempFiltered:
 			tempFiltered.append(siteLink[x])
 		else:
 			siteLink[x] = None
 			siteTimeFormatCorrect[x] = None
-			#print 'popping site: %s' % (siteLink[x])
-			#print 'popping time: %s' % (siteTimeFormatCorrect[x])
-	#inputArrayFiltered.extend(tempFiltered)
+			NullValues += 1
+			print NullValues
+	NullCount.append(NullValues)
+print NullCount
 
 
 
@@ -138,7 +143,7 @@ for index, correctIndex in enumerate(maybe_correct_index):
 	cleanCorrectLink = potentiallyCorrectLink[:-1]
 	# a) For visited page count the number of unique DNS requests.
 	# c) For visited page, print out the time the first requested webpage was visited.
-	outputFile.write('%s: %d Time: %s \n' % (cleanCorrectLink, queryLength[index], siteTimeFormatCorrect[linkname]))
+	outputFile.write('%s: %d Time: %s \n' % (cleanCorrectLink, (queryLength[index]-NullCount[index]), siteTimeFormatCorrect[linkname]))
 	for x in range(correctIndex, (correctIndex + queryLength[index])):
 		if siteLink[x] != None:
 			counter += 1
