@@ -116,7 +116,6 @@ for index, correctIndex in enumerate(maybe_correct_index):
 	# Filter the duplicates that appear:
 	tempFiltered = []
 	for x in range(correctIndex, (correctIndex + queryLength[index])):
-		print x
 		if siteLink[x] not in tempFiltered:
 			tempFiltered.append(siteLink[x])
 		else:
@@ -125,6 +124,12 @@ for index, correctIndex in enumerate(maybe_correct_index):
 			print 'popping time: %s' % (siteTimeFormatCorrect[x])
 print needToPopIndex
 
+
+
+for index, popthis in enumerate(needToPopIndex):
+	print index
+	siteLink.pop(popthis)
+	siteTimeFormatCorrect.pop(popthis)
 
  # Print Stuff:
 
