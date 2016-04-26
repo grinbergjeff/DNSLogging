@@ -119,13 +119,13 @@ for index, correctIndex in enumerate(maybe_correct_index):
 	for x in range(correctIndex, (correctIndex + queryLength[index])):
 		if siteLink[x] not in tempFiltered:
 			tempFiltered.append(siteLink[x])
-		#else:
-			
+		else:
+			siteLink[x] = None
+			siteTimeFormatCorrect[x] = None
 			#print 'popping site: %s' % (siteLink[x])
 			#print 'popping time: %s' % (siteTimeFormatCorrect[x])
-	inputArrayFiltered.extend(tempFiltered)
+	#inputArrayFiltered.extend(tempFiltered)
 
-print inputArrayFiltered
 
 
 
@@ -140,9 +140,10 @@ for index, correctIndex in enumerate(maybe_correct_index):
 	# c) For visited page, print out the time the first requested webpage was visited.
 	outputFile.write('%s: %d Time: %s \n' % (cleanCorrectLink, queryLength[index], siteTimeFormatCorrect[linkname]))
 	for x in range(correctIndex, (correctIndex + queryLength[index])):
-		counter += 1
-		# b) For visited page, print out the unique DNS names observed.
-		outputFile.write('%d. %s \n' %(counter, siteLink[x][:-1]))
+		if siteLink[x] != None:
+			counter += 1
+			# b) For visited page, print out the unique DNS names observed.
+			outputFile.write('%d. %s \n' %(counter, siteLink[x][:-1]))
 	counter = 0
 outputFile.close()
 

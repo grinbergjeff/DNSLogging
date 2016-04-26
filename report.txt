@@ -30,13 +30,6 @@ yahoo.com: 33 Time: 21:37:50.944
 24. geo.query.yahoo.com 
 25. geo.yahoo.com 
 26. comet.yahoo.com 
-27. geo.query.yahoo.com 
-28. www.yahoo.com 
-29. comet.yahoo.com 
-30. geo.query.yahoo.com 
-31. geo.query.yahoo.com 
-32. geo.query.yahoo.com 
-33. comet.yahoo.com 
 comet.yahoo.com: 17 Time: 21:37:50.944 
 1. comet.yahoo.com 
 2. bing.com 
@@ -52,9 +45,7 @@ comet.yahoo.com: 17 Time: 21:37:50.944
 12. people.live.com 
 13. outlook.com 
 14. go.microsoft.com 
-15. www.bing.com 
-16. www.bing.com 
-17. login.live.com 
+15. login.live.com 
 www.bing.com: 28 Time: 21:37:50.944 
 1. www.bing.com 
 2. baidu.cn 
@@ -67,23 +58,20 @@ www.bing.com: 28 Time: 21:37:50.944
 9. t10.baidu.com 
 10. t11.baidu.com 
 11. t12.baidu.com 
-12. t10.baidu.com 
-13. b1.bdstatic.com 
-14. passport.baidu.com 
-15. t11.baidu.com 
-16. www.nuomi.com 
-17. t12.baidu.com 
-18. news.baidu.com 
-19. www.hao123.com 
-20. map.baidu.com 
-21. v.baidu.com 
-22. tieba.baidu.com 
-23. zhidao.baidu.com 
-24. music.baidu.com 
-25. image.baidu.com 
-26. wenku.baidu.com 
-27. home.baidu.com 
-28. ir.baidu.com 
+12. b1.bdstatic.com 
+13. passport.baidu.com 
+14. www.nuomi.com 
+15. news.baidu.com 
+16. www.hao123.com 
+17. map.baidu.com 
+18. v.baidu.com 
+19. tieba.baidu.com 
+20. zhidao.baidu.com 
+21. music.baidu.com 
+22. image.baidu.com 
+23. wenku.baidu.com 
+24. home.baidu.com 
+25. ir.baidu.com 
 yandex.ru: 12 Time: 21:37:50.944 
 1. yandex.ru 
 2. yastatic.net 
@@ -95,5 +83,3 @@ yandex.ru: 12 Time: 21:37:50.944
 8. www.googleadservices.com 
 9. googleads.g.doubleclick.net 
 10. www.google.com 
-11. mc.yandex.ru 
-12. mc.yandex.ru 
