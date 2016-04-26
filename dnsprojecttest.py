@@ -79,14 +79,10 @@ for index, info in enumerate(inputArray):
 maybe_correct_index = []
 # The first query is always the first element in the filter only `IN AAAA` array
 maybe_correct_index.append(0)	
-sub_array = []
-# Make a variable initialized at zero so it can traverse the array properly
-checkme = 0
+
 for index, time in enumerate(timeStampMS):
 	# index will constantly traverse through the array where check me will be stuck at the first link that appears every 60,000ms
 	subtraction = abs(time - timeStampMS[index-1] )
-	sub_array.append(subtraction)
-	# print subtraction
 	if subtraction > 15000:
 			# Look for what exists in the link and filter it
 			# Typical links have 3 dots:
@@ -99,7 +95,6 @@ for index, time in enumerate(timeStampMS):
 				# Now we need to jump the stuck checkme to the current address that has the minute past.
 				# checkme = index
 maybe_correct_index.pop(0)
-print len(sub_array)
 print maybe_correct_index
 
 # Calculate the length between each properly made (man-made) queries and store it into an array.
@@ -115,7 +110,10 @@ queryLength.append(abs(maybe_correct_index[-1] - filteredArrayCount))
 queryLength.pop(0)
 
 # Filter the duplicates that appear:
-
+for index, correctIndex in enumerate(maybe_correct_index):
+ 	potentiallyCorrectLink = siteLink[correctIndex]
+	cleanCorrectLink = potentiallyCorrectLink[:-1]
+	for x in range(inputArray)
 
 	# For filtering the duplicate dns requests:
 	# Find the length between the next, go through them for lengths and get rid of repeats. 
