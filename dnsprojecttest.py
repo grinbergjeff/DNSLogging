@@ -110,8 +110,8 @@ queryLength.append(abs(maybe_correct_index[-1] - filteredArrayCount))
 queryLength.pop(0)
 print queryLength
 
-# Array for which indexes I need to pop because they are duplicates:
-needToPopIndex=[]
+# Array that will hold all the dns requests but filtered for any duplicates
+inputArrayFiltered = []
 
 for index, correctIndex in enumerate(maybe_correct_index):
 	# Filter the duplicates that appear:
@@ -119,25 +119,15 @@ for index, correctIndex in enumerate(maybe_correct_index):
 	for x in range(correctIndex, (correctIndex + queryLength[index])):
 		if siteLink[x] not in tempFiltered:
 			tempFiltered.append(siteLink[x])
-		else:
-			needToPopIndex.append(x)
-			print 'popping site: %s' % (siteLink[x])
-			print 'popping time: %s' % (siteTimeFormatCorrect[x])
-print needToPopIndex
+		#else:
+			
+			#print 'popping site: %s' % (siteLink[x])
+			#print 'popping time: %s' % (siteTimeFormatCorrect[x])
+	inputArrayFiltered.extend(tempFiltered)
+
+print inputArrayFiltered
 
 
-
-# for index, popthis in enumerate(needToPopIndex):
-# 	if index == 0:
-# 		# print index
-# 		siteLink.pop(popthis)
-# 		siteTimeFormatCorrect.pop(popthis)
-# 	else:
-# 		print index
-# 		siteLink.pop(popthis-1)
-# 		siteTimeFormatCorrect.pop(popthis-1)
-
- # Print Stuff:
 
  #Prepare to write to a report file:
 outputFile = open('report.txt', 'w')
