@@ -27,12 +27,12 @@ inputFile.close();
 				# 2016-04-24 17:36:03.292542 Client IP: 127.0.0.1    request is    apis.google.com. IN AAAA
 				# 2016-04-24 17:36:03.322956 Client IP: 127.0.0.1    request is    apis.google.com. IN A -------SAME AS FIRST apis.google.com
 
-# Therefore to find only unique address entries, I want to only look for the ones that have `IN AAAA`. Would you say this is the correct approach?
+# Therefore to find only unique address entries, I want to only look for the ones that have `IN A`. Would you say this is the correct approach?
 
 inputArray = readFile.split('\n')
 # Traverse through the array search for the `IN AAAA` values.
-stringlook = "IN A"
-inputArray = "\n".join(s for s in inputArray if stringlook.lower() in s.lower()).split("\n")
+#stringlook = "IN A"
+#inputArray = "\n".join(s for s in inputArray if stringlook.lower() in s.lower()).split("\n")
 
 
 filteredArrayCount = len(inputArray)
