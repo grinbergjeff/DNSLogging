@@ -80,7 +80,7 @@ maybe_correct_index = []
 
 for index, time in enumerate(timeStampMS):
 	subtraction = abs(time - timeStampMS[index-1] )
-	if subtraction > 11000:
+	if subtraction > 13000:
 			# Look for what exists in the link and filter it
 			# Typical links have at least dots:
 		if siteLink[index].count('.') >= 2:
@@ -91,7 +91,7 @@ for index, time in enumerate(timeStampMS):
 
 				# Possible solution: Find the one that meets the threshold of 11s and then check the next 7 elements to see if it also meets it. If the future elements
 				# meet the threshold, then assign the future one as your potentially correct link.
-				
+			maybe_correct_index.append(index)
 # maybe_correct_index.pop(0)
 # print maybe_correct_index
 
