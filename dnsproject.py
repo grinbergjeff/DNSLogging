@@ -69,6 +69,8 @@ for index, info in enumerate(inputArray):
 	# Calculate the time for each timestamp in milliseconds and store it in the end of the array that holds each time in milliseconds
 	timeStampMS.append(hoursMS + minutesMS + secondsMS + mS)
 
+print siteTimeFormatCorrect
+
 # Now that we have the timestamps in milliseconds, we will look for timestamps that are at least 15,000 ms
 # away. We can calculate this by traversing through each timestamp and subtracting from the indexed value before
 
@@ -145,7 +147,7 @@ for index, correctIndex in enumerate(maybe_correct_index):
 	cleanCorrectLink = potentiallyCorrectLink[:-1]
 	# The unique values count (queryLength[index] - duplicateCount[index]) was calculated by taking
 	# the original length of links after the man-made query and getting rid of the duplicates.
-	outputFile.write('%s: %d Time: %s \n' % (cleanCorrectLink, (queryLength[index] - duplicateCount[index]), siteTimeFormatCorrect[linkname]))
+	outputFile.write('%s: %d Time: %s \n' % (cleanCorrectLink, (queryLength[index] - duplicateCount[index]), siteTimeFormatCorrect[correctIndex]))
 	for x in range(correctIndex, (correctIndex + queryLength[index])):
 		if siteLink[x] != None:
 			counter += 1
