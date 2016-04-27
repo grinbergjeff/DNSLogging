@@ -69,8 +69,6 @@ for index, info in enumerate(inputArray):
 	# Calculate the time for each timestamp in milliseconds and store it in the end of the array that holds each time in milliseconds
 	timeStampMS.append(hoursMS + minutesMS + secondsMS + mS)
 
-print siteTimeFormatCorrect
-
 # Now that we have the timestamps in milliseconds, we will look for timestamps that are at least 15,000 ms
 # away. We can calculate this by traversing through each timestamp and subtracting from the indexed value before
 
