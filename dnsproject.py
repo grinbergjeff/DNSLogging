@@ -80,15 +80,24 @@ maybe_correct_index = []
 
 for index, time in enumerate(timeStampMS):
 	subtraction = abs(time - timeStampMS[index-1] )
-	if subtraction > 13000:
+	if subtraction > 11000:
 			# Look for what exists in the link and filter it
 			# Typical links have at least dots:
 		if siteLink[index].count('.') >= 2:
 					# Now search for the standard website: www . ___________ . com/edu/org/net.
 					# www identifies that the website is on the internet, not some potentially local site overiding like we did with yahoo.com in our lab
 					# if re.search('(\.)(\S+)(\.)(com|edu|org|net)', siteLink[index]) :
-				# If we go past 15000ms, then we should store this as possibly a right DNS that we entered:
-				maybe_correct_index.append(index)
+				# If we go past 11000ms, then we should store this as possibly a right DNS that we entered:
+
+				# Possible solution: Find the one that meets the threshold of 11s and then check the next 7 elements to see if it also meets it. If the future elements
+				# meet the threshold, then assign the future one as your potentially correct link.
+				for x in range(index, index+7):
+					print x
+					print timeStampMS[x] - timeStampMS[x-1]
+					if not (abs(timeStampMS[x] - timeStampMS[x-1]) > 11000):
+						maybe_correct_index.append(x)
+					else:
+						maybe_correct_index.append(index)
 # maybe_correct_index.pop(0)
 # print maybe_correct_index
 
