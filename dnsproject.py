@@ -30,6 +30,10 @@ inputFile.close();
 # Therefore to find only unique address entries, I want to only look for the ones that have `IN A`. Would you say this is the correct approach?
 
 inputArray = readFile.split('\n')
+for index, information in enumerate(inputArray):
+	if (information == ''):
+		inputArray.pop(index)
+
 # Traverse through the array search for the `IN AAAA` values.
 #stringlook = "IN A"
 #inputArray = "\n".join(s for s in inputArray if stringlook.lower() in s.lower()).split("\n")
