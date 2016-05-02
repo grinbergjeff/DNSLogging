@@ -1,88 +1,546 @@
-google.com: 5 Time: 21:33:45.809 
-1. google.com 
-2. www.google.com 
-3. ssl.gstatic.com 
-4. www.gstatic.com 
-5. apis.google.com 
-yahoo.com: 26 Time: 21:34:50.723 
-1. yahoo.com 
-2. www.yahoo.com 
-3. s.yimg.com 
-4. bs.serving-sys.com 
-5. sb.scorecardresearch.com 
-6. na.ads.yahoo.com 
-7. pagead2.googlesyndication.com 
-8. ads.yahoo.com 
-9. csc.beap.bc.yahoo.com 
-10. pclick.yahoo.com 
-11. clients1.google.com 
-12. pix04.revsci.net 
-13. sync.mathtag.com 
-14. rmx.pxl.ace.advertising.com 
-15. sync.adap.tv 
-16. image2.pubmatic.com 
-17. ocsp.netsolssl.com 
-18. googleads.g.doubleclick.net 
-19. ocsp.digicert.com 
-20. ocsp.entrust.net 
-21. pr-bh.ybp.yahoo.com 
-22. secure-ds.serving-sys.com 
-23. sync.adaptv.advertising.com 
-24. geo.query.yahoo.com 
-25. geo.yahoo.com 
-26. comet.yahoo.com 
-comet.yahoo.com: 16 Time: 21:35:50.350 
-1. comet.yahoo.com 
-2. bing.com 
-3. www.bing.com 
-4. www.msn.com 
-5. www.office.com 
-6. office.live.com 
-7. www.onenote.com 
-8. www.sway.com 
-9. www.docs.com 
-10. onedrive.live.com 
-11. calendar.live.com 
-12. people.live.com 
-13. outlook.com 
-14. go.microsoft.com 
-15. login.live.com 
-16. a4.bing.com 
-www.bing.com: 26 Time: 21:36:50.451 
-1. www.bing.com 
-2. baidu.cn 
-3. www.baidu.com 
-4. s1.bdstatic.com 
-5. t1.baidu.com 
-6. t2.baidu.com 
-7. t3.baidu.com 
-8. sclick.baidu.com 
-9. t10.baidu.com 
-10. t11.baidu.com 
-11. t12.baidu.com 
-12. b1.bdstatic.com 
-13. passport.baidu.com 
-14. www.nuomi.com 
-15. news.baidu.com 
-16. www.hao123.com 
-17. map.baidu.com 
-18. v.baidu.com 
-19. tieba.baidu.com 
-20. zhidao.baidu.com 
-21. music.baidu.com 
-22. image.baidu.com 
-23. wenku.baidu.com 
-24. home.baidu.com 
-25. ir.baidu.com 
-26. jianyi.baidu.com 
-yandex.ru: 10 Time: 21:37:50.931 
-1. yandex.ru 
-2. yastatic.net 
-3. yabs.yandex.ru 
-4. mc.yandex.ru 
-5. www.tns-counter.ru 
-6. kiks.yandex.ru 
-7. awaps.yandex.net 
-8. www.googleadservices.com 
-9. googleads.g.doubleclick.net 
-10. www.google.com 
+www.google.com: 4 Time: 19:13:02.474 
+ 
+1. www.google.com 
+ 
+2. www.gstatic.com 
+ 
+3. apis.google.com 
+ 
+4. plus.google.com 
+ 
+cnn.com: 84 Time: 19:14:02.525 
+ 
+1. cnn.com 
+ 
+2. www.cnn.com 
+ 
+3. www.i.cdn.cnn.com 
+ 
+4. z.cdn.turner.com 
+ 
+5. cdn.optimizely.com 
+ 
+6. i.cdn.turner.com 
+ 
+7. a.postrelease.com 
+ 
+8. www.google.com 
+ 
+9. cdn.krxd.net 
+ 
+10. rtax.criteo.com 
+ 
+11. tpc.googlesyndication.com 
+ 
+12. pagead2.googlesyndication.com 
+ 
+13. www.googletagservices.com 
+ 
+14. partner.googleadservices.com 
+ 
+15. aax.amazon-adsystem.com 
+ 
+16. w.usabilla.com 
+ 
+17. a.visualrevenue.com 
+ 
+18. c.go-mpulse.net 
+ 
+19. cdn.pivit.io 
+ 
+20. segment-data-us-east.zqtk.net 
+ 
+21. static.yieldmo.com 
+ 
+22. traffic.outbrain.com 
+ 
+23. weather.cnn.com 
+ 
+24. cdn3.optimizely.com 
+ 
+25. pmd.cdn.turner.com 
+ 
+26. ht.cdn.turner.com 
+ 
+27. i2.cdn.turner.com 
+ 
+28. 131788053.log.optimizely.com 
+ 
+29. www.ugdturner.com 
+ 
+30. vrt.outbrain.com 
+ 
+31. consent.truste.com 
+ 
+32. data.cnn.com 
+ 
+33. widgets.outbrain.com 
+ 
+34. img.bleacherreport.net 
+ 
+35. ocsp.digicert.com 
+ 
+36. vrp.outbrain.com 
+ 
+37. jadserve.postrelease.com 
+ 
+38. cdn.livefyre.com 
+ 
+39. connect.facebook.net 
+ 
+40. secure-us.imrworldwide.com 
+ 
+41. metrics.cnn.com 
+ 
+42. hpr.outbrain.com 
+ 
+43. d2lv4zbk7v5f93.cloudfront.net 
+ 
+44. beacon.krxd.net 
+ 
+45. cdn.gigya.com 
+ 
+46. securepubads.g.doubleclick.net 
+ 
+47. log.outbrain.com 
+ 
+48. b.scorecardresearch.com 
+ 
+49. ad.doubleclick.net 
+ 
+50. www.budgetedbauer.com 
+ 
+51. www.facebook.com 
+ 
+52. staticxx.facebook.com 
+ 
+53. images.outbrain.com 
+ 
+54. s.cdn.turner.com 
+ 
+55. cm.g.doubleclick.net 
+ 
+56. ads.rubiconproject.com 
+ 
+57. www.fallingfalcon.com 
+ 
+58. optimized-by.rubiconproject.com 
+ 
+59. idsync.rlcdn.com 
+ 
+60. tags.bluekai.com 
+ 
+61. js.moatads.com 
+ 
+62. zor.fyre.co 
+ 
+63. z.moatads.com 
+ 
+64. jsonp.moatads.com 
+ 
+65. s1.2mdn.net 
+ 
+66. secure.insightexpressai.com 
+ 
+67. ib.adnxs.com 
+ 
+68. s0.2mdn.net 
+ 
+69. pixel.moatads.com 
+ 
+70. ocsp.godaddy.com 
+ 
+71. vassg142.ocsp.omniroot.com 
+ 
+72. gscounters.us1.gigya.com 
+ 
+73. www.gstatic.com 
+ 
+74. static.chartbeat.com 
+ 
+75. cdn.clicktale.net 
+ 
+76. d3t4zxd6snpsto.cloudfront.net 
+ 
+77. t.co 
+ 
+78. googleads.g.doubleclick.net 
+ 
+79. analytics.twitter.com 
+ 
+80. idsync.ipowow.com 
+ 
+81. aspen.turner.com 
+ 
+82. 36eb5555.mpstat.us 
+ 
+83. ping.chartbeat.net 
+ 
+84. dbg52463.moatads.com 
+ 
+espn.com: 48 Time: 19:15:05.393 
+ 
+1. espn.com 
+ 
+2. www.espn.com 
+ 
+3. espn.go.com 
+ 
+4. a.espncdn.com 
+ 
+5. a3.espncdn.com 
+ 
+6. a2.espncdn.com 
+ 
+7. pbs.twimg.com 
+ 
+8. www.googletagservices.com 
+ 
+9. sds.livesegmentservice.com 
+ 
+10. tredir.go.com 
+ 
+11. partner.googleadservices.com 
+ 
+12. segment-data-us-east.zqtk.net 
+ 
+13. cdn.registerdisney.go.com 
+ 
+14. fan.api.espn.go.com 
+ 
+15. cdn.espn.go.com 
+ 
+16. tpc.googlesyndication.com 
+ 
+17. platform.twitter.com 
+ 
+18. ocsp.entrust.net 
+ 
+19. a1.espncdn.com 
+ 
+20. securepubads.g.doubleclick.net 
+ 
+21. a248.e.akamai.net 
+ 
+22. log.go.com 
+ 
+23. pagead2.googlesyndication.com 
+ 
+24. red.ff0000-cdn.net 
+ 
+25. assets.espn.go.com 
+ 
+26. s.adzmath.com 
+ 
+27. tags.tiqcdn.com 
+ 
+28. cdn.mxpnl.com 
+ 
+29. r.espn.go.com 
+ 
+30. adsatt.espn.go.com 
+ 
+31. api.mixpanel.com 
+ 
+32. w88.go.com 
+ 
+33. espn-admin.ff0000-cdn.net 
+ 
+34. pbs.twimg.com.localdomain 
+ 
+35. zn_4slwdofs4ykbmhc-espn.siteintercept.qualtrics.com 
+ 
+36. b.scorecardresearch.com 
+ 
+37. secure-us.imrworldwide.com 
+ 
+38. tags.bkrtx.com 
+ 
+39. tags.bluekai.com 
+ 
+40. d3qxwzhswv93jk.cloudfront.net 
+ 
+41. nba-scores.ff0000-cdn.net 
+ 
+42. ad.doubleclick.net 
+ 
+43. www.budgetedbauer.com 
+ 
+44. www.fallingfalcon.com 
+ 
+45. fastcast.espn.com 
+ 
+46. fcast.us-east-1.espncdn.com 
+ 
+47. www.budgetedbauer.com.localdomain 
+ 
+48. ping.chartbeat.net 
+ 
+cnn.com: 104 Time: 19:16:01.684 
+ 
+1. cnn.com 
+ 
+2. www.cnn.com 
+ 
+3. www.i.cdn.cnn.com 
+ 
+4. z.cdn.turner.com 
+ 
+5. cdn.optimizely.com 
+ 
+6. a.postrelease.com 
+ 
+7. cdn.krxd.net 
+ 
+8. rtax.criteo.com 
+ 
+9. www.google.com 
+ 
+10. i.cdn.turner.com 
+ 
+11. aax.amazon-adsystem.com 
+ 
+12. w.usabilla.com 
+ 
+13. a.visualrevenue.com 
+ 
+14. c.go-mpulse.net 
+ 
+15. cdn.pivit.io 
+ 
+16. static.yieldmo.com 
+ 
+17. traffic.outbrain.com 
+ 
+18. weather.cnn.com 
+ 
+19. pmd.cdn.turner.com 
+ 
+20. ht.cdn.turner.com 
+ 
+21. i2.cdn.turner.com 
+ 
+22. www.ugdturner.com 
+ 
+23. vrt.outbrain.com 
+ 
+24. www.googletagservices.com 
+ 
+25. consent.truste.com 
+ 
+26. data.cnn.com 
+ 
+27. cdn3.optimizely.com 
+ 
+28. 131788053.log.optimizely.com 
+ 
+29. widgets.outbrain.com 
+ 
+30. vrp.outbrain.com 
+ 
+31. ocsp.digicert.com 
+ 
+32. jadserve.postrelease.com 
+ 
+33. hpr.outbrain.com 
+ 
+34. cdn.livefyre.com 
+ 
+35. connect.facebook.net 
+ 
+36. metrics.cnn.com 
+ 
+37. tap.rubiconproject.com 
+ 
+38. d3t4zxd6snpsto.cloudfront.net 
+ 
+39. z.moatads.com 
+ 
+40. cdn.espn.go.com 
+ 
+41. securepubads.g.doubleclick.net 
+ 
+42. storage.outbrain.com 
+ 
+43. cdn.gigya.com 
+ 
+44. d2lv4zbk7v5f93.cloudfront.net 
+ 
+45. dbg52463.moatads.com 
+ 
+46. log.outbrain.com 
+ 
+47. www.facebook.com 
+ 
+48. staticxx.facebook.com 
+ 
+49. pagead2.googlesyndication.com 
+ 
+50. beacon.krxd.net 
+ 
+51. ads.rubiconproject.com 
+ 
+52. cm.g.doubleclick.net 
+ 
+53. images.outbrain.com 
+ 
+54. optimized-by.rubiconproject.com 
+ 
+55. secure.insightexpressai.com 
+ 
+56. tpc.googlesyndication.com 
+ 
+57. metrics.cnn.com.localdomain 
+ 
+58. js.moatads.com 
+ 
+59. b.scorecardresearch.com 
+ 
+60. jsonp.moatads.com 
+ 
+61. www.fallingfalcon.com 
+ 
+62. zor.fyre.co 
+ 
+63. ad.doubleclick.net 
+ 
+64. partner.googleadservices.com 
+ 
+65. serve-east.acuityplatform.com 
+ 
+66. gscounters.us1.gigya.com 
+ 
+67. pixel.moatads.com 
+ 
+68. sdk.streamrail.com 
+ 
+69. cdn.acuityplatform.com 
+ 
+70. pixel.yabidos.com 
+ 
+71. acuityplatform.com 
+ 
+72. dsum.casalemedia.com 
+ 
+73. global.ib-ibi.com 
+ 
+74. loadm.exelator.com 
+ 
+75. ib.adnxs.com 
+ 
+76. dpm.demdex.net 
+ 
+77. sync.search.spotxchange.com 
+ 
+78. ml314.com 
+ 
+79. ads.yahoo.com 
+ 
+80. soma.smaato.net 
+ 
+81. eb2.3lift.com 
+ 
+82. us-u.openx.net 
+ 
+83. gv.symcd.com 
+ 
+84. ocsp.comodoca.com 
+ 
+85. ocsp.godaddy.com 
+ 
+86. ssp.streamrail.net 
+ 
+87. image2.pubmatic.com 
+ 
+88. ums.adtechus.com 
+ 
+89. sta.yabidos.com 
+ 
+90. ib.mookie1.com 
+ 
+91. s0.2mdn.net 
+ 
+92. perpro23-ue1b.ml314.com 
+ 
+93. k.streamrail.com 
+ 
+94. cdn.adsrv247.com 
+ 
+95. static.chartbeat.com 
+ 
+96. cdn.clicktale.net 
+ 
+97. apiservices.krxd.net 
+ 
+98. t.co 
+ 
+99. googleads.g.doubleclick.net 
+ 
+100. analytics.twitter.com 
+ 
+101. idsync.ipowow.com 
+ 
+102. aspen.turner.com 
+ 
+103. 36cc206a.mpstat.us 
+ 
+104. a1.espncdn.com 
+ 
+youtube.com: 28 Time: 19:17:03.252 
+ 
+1. youtube.com 
+ 
+2. segment-data-us-east.zqtk.net 
+ 
+3. youtube.com.localdomain 
+ 
+4. ping.chartbeat.net 
+ 
+5. www.youtube.com 
+ 
+6. s.ytimg.com 
+ 
+7. i.ytimg.com 
+ 
+8. yt3.ggpht.com 
+ 
+9. pubads.g.doubleclick.net 
+ 
+10. tpc.googlesyndication.com 
+ 
+11. www.google.com 
+ 
+12. cm.g.doubleclick.net 
+ 
+13. pagead2.googlesyndication.com 
+ 
+14. fonts.googleapis.com 
+ 
+15. www.gstatic.com 
+ 
+16. apis.google.com 
+ 
+17. clients1.google.com 
+ 
+18. gcdn.2mdn.net 
+ 
+19. r8---sn-p5qlsn67.c.2mdn.net 
+ 
+20. static.doubleclick.net 
+ 
+21. accounts.google.com 
+ 
+22. content.googleapis.com 
+ 
+23. ad.doubleclick.net 
+ 
+24. cdn.espn.go.com 
+ 
+25. ssl.gstatic.com 
+ 
+26. cdn.adsrv247.com 
+ 
+27. k.streamrail.com 
+ 
+28. ssp.streamrail.net 
+ 

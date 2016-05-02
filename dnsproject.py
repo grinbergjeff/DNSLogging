@@ -84,20 +84,29 @@ maybe_correct_index = []
 
 for index, time in enumerate(timeStampMS):
 	subtraction = abs(time - timeStampMS[index-1] )
-	if subtraction > 13000:
+	if subtraction > 11300:
 			# Look for what exists in the link and filter it
 			# Typical links have at least dots:
 		if siteLink[index].count('.') >= 2:
-					# Now search for the standard website: www . ___________ . com/edu/org/net.
-					# www identifies that the website is on the internet, not some potentially local site overiding like we did with yahoo.com in our lab
-					# if re.search('(\.)(\S+)(\.)(com|edu|org|net)', siteLink[index]) :
-				# If we go past 11000ms, then we should store this as possibly a right DNS that we entered:
+					# Disallow links that have 4 periods or end with localdomain
+			if (re.search('(\.)(\S+)(\.)(\S+)(\.)(\S+)(\.)', siteLink[index]) or 'localdomain' in siteLink[index])  :
+				# Do not take this value.
+				continue
+					# Do not take any link that is a subdomain like tj10.baidu.com
+			if (siteLink[index].count('.') == 3 and 'www' not in siteLink[index]):
+				for x in range (index, len(timeStampMS) - 1) :
+					if siteLink[x].count('.') == 2:
+						maybe_correct_index.append(x)
+						break
+				continue
 
-				# Possible solution: Find the one that meets the threshold of 11s and then check the next 7 elements to see if it also meets it. If the future elements
-				# meet the threshold, then assign the future one as your potentially correct link.
-			maybe_correct_index.append(index)
-# maybe_correct_index.pop(0)
-# print maybe_correct_index
+		maybe_correct_index.append(index)
+# Look for duplicate potentially correct indexes and filter them.
+for index, value in enumerate(maybe_correct_index):
+	for windex, inforamtion in enumerate(maybe_correct_index):
+		if index != windex:
+			if inforamtion == value:
+				maybe_correct_index.pop(windex)
 
 # Calculate the length between each properly made (man-made) queries and store it into an array.
 # For every element in the maybe_correct_index calculate the difference between the element and the element before it-1.
@@ -152,11 +161,11 @@ for index, correctIndex in enumerate(maybe_correct_index):
 	cleanCorrectLink = potentiallyCorrectLink[:-1]
 	# The unique values count (queryLength[index] - duplicateCount[index]) was calculated by taking
 	# the original length of links after the man-made query and getting rid of the duplicates.
-	outputFile.write('%s: %d Time: %s \n' % (cleanCorrectLink, (queryLength[index] - duplicateCount[index]), siteTimeFormatCorrect[correctIndex]))
+	outputFile.write('%s: %d Time: %s \n \n' % (cleanCorrectLink, (queryLength[index] - duplicateCount[index]), siteTimeFormatCorrect[correctIndex]))
 	for x in range(correctIndex, (correctIndex + queryLength[index])):
 		if siteLink[x] != None:
 			counter += 1
-			outputFile.write('%d. %s \n' %(counter, siteLink[x][:-1]))
+			outputFile.write('%d. %s \n \n' %(counter, siteLink[x][:-1]))
 	counter = 0
 outputFile.close()
 
